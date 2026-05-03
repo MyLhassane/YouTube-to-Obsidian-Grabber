@@ -2,6 +2,8 @@
 
 A lightweight Chrome/Edge extension that extracts YouTube video metadata (Title, Channel, URL, Thumbnail) via right-click without opening the video. It automatically formats the data as YAML frontmatter and copies it to your clipboard, ready to be pasted into Obsidian or any other Markdown-based PKM system.
 
+![](image.png)
+
 ## ✨ Features
 
 - **No Video Opening Required**: Extract data directly from the YouTube homepage, search results, or suggested videos sidebar.
@@ -35,11 +37,13 @@ Since this is a local extension, you need to load it in Developer Mode:
 The extension copies the data to your clipboard in the following YAML format:
 
 ```yaml
+
 ---
 title: "Video Title Here"
 channel: "Channel Name"
 url: [https://www.youtube.com/watch?v=XXXXXXX](https://www.youtube.com/watch?v=XXXXXXX)
 thumbnail: "[https://img.youtube.com/vi/XXXXXXX/maxresdefault.jpg](https://img.youtube.com/vi/XXXXXXX/maxresdefault.jpg)"
+
 ---
 
 📂 File Structure
